@@ -1,0 +1,22 @@
+
+
+table{
+    justify-content: center;
+    margin: 40px;
+    width: 400px;
+    height: 100px;
+    border: 2px solid rgb(111, 128, 0);
+    text-align: center;
+    margin: auto;
+   
+}
+th{
+    border:  1px solid rgb(111, 128, 0);
+}
+td{
+    border:  1px solid rgb(111, 128, 0);
+}
+.room1{
+    color: black;
+    padding: 20px;
+}

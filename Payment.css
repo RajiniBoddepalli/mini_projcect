@@ -1,0 +1,51 @@
+.A11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .card-container label {
+    margin-right: 10px;
+  }
+  
+  .card-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .radio-button {
+    margin-right: 10px;
+  }
+  
+  .google-pay-button {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .google-pay-button {
+      width: 100%;
+      max-width:100%;
+  }
+  }
